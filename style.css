@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100&display=swap');
+
+*{
+    background-color: rgb(70, 70, 70);
+    font-family: 'Lato','Indie Flower', Verdana, sans-serif;
+    font-weight: bold;
+    color: #eee; 
+}
+
+body{
+    padding: 20px;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Indie Flower', Verdana, sans-serif;;
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px  0px;
+}
+
+form{
+    width: 30%;
+    border: 1.5px #000 solid;
+    border-radius: 20px;
+    height: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.align{
+    width: 60%;
+    height: 30px;
+    border: 0.1px #000 solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+textarea{
+    width: 300px;
+    height: 350px;
+    resize: none;
+    border: none;  
+    cursor: default;
+}
+
+.verifyEmailBut{
+    padding: 10px 20px;
+    background-color: rgb(22, 101, 74);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    width: 90%;
+} 
+
+.contenu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+}
+.startBut{
+    padding: 10px 20px;
+    background-color: rgb(22, 101, 74);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    width: 30%;
+}
+
+.pauseBut{
+    padding: 10px 20px;
+    background-color: rgb(130, 111, 5);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    width: 30%;
+} 
+
+.stopBut{
+    padding: 10px 20px;
+    background-color: rgb(93, 2, 17);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    width: 30%;
+} 
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerDiv{
+    width: 33.33333%;
+    border-right: 1px #fff solid;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 0;
+}
+.clear{
+    border-right: 0px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 40px ;
+    border-radius: 25px;
+}
+
+hr{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 770px){
+    form{
+        width: 40%;
+    }
+    img{
+        margin: 0 10px ;
+    }
+    .h3align{
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: xx-large;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 40px;
+    }
+    form{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .align{
+        width: 50%;
+    }
+    .footerDiv{
+        font-size: small;
+        text-align: left;
+    }
+    img{
+        margin: 0;
+    }
+    hr{
+        width: 98%;
+    }
+    .h3align{
+        padding-right: 0;
+    }
+
+}

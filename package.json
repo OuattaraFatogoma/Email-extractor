@@ -1,0 +1,16 @@
+{
+  "name": "email-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.4",
+    "puppeteer-core": "^21.1.1"
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script> var exports = {};</script>
+    <!--  -->
+     <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <title>Email Extractor</title>
+</head>
+<body>
+    <h1>Email Extractor</h1>
+    <hr>
+    <section>
+        <form action="" class="input">
+            <span id="error"></span>
+            <div class="contenu">
+                <label for="site">Site * :</label><br><input type="text" class="site align" id="site" value="linkedin.com">
+            </div>
+            <div class="contenu">
+                <label for="email">Email :</label><br>
+                <select id="email" class="align">
+                    <option value="@gmail.com" class="gmail">@gmail.com</option>
+                    <option value="@hotmail.com" class="hotmail">@hotmail.com</option>
+                    <option value="@yahoo.com" class="yahoo">@yahoo.com</option>
+                </select>
+            </div>
+            <div class="contenu">
+                <label for="title">Title * :</label><br><input type="text" class="title align" id="title">
+            </div>
+            <div class="contenu">
+                <label for="country">Coubtry :</label><br><input type="text" class="country align" id="country" >
+            </div>
+            <div class="contenu">
+                <label for="location">Location :</label><br><input type="text" class="location align" id="location">
+            </div>
+            <div class="contenu">
+                <label for="inKeywords">Include keywords :</label><br><input type="text" class="inKeywords align" id="inKeywords">
+            </div>
+            <div class="contenu">
+                <label for="outKeywords">Exclude keywords :</label><br><input type="text" class="outKeywords align" id="outKeywords">
+            </div>
+            <div class="but contenu" >
+                <button class="startBut">Start</button>
+                <button class="pauseBut">Pause</button>
+                <button class="stopBut">Stop</button>
+            </div>  
+        </form>
+        <div class="inform">
+
+        </div>
+        <form action="" class="output">
+            <textarea name="emails" id="emails"  readonly></textarea>
+            <a href="https://emails-checker.net/bulk-email-checker" target="_blank">
+                <button class="verifyEmailBut">Verify my emails</button>
+            </a>
+            
+        </form>
+    </section>
+    
+    <footer>
+        <hr>
+        <div class="footerContainer">
+            <div class="footerDiv">
+                <h3>Creator</h3>
+                <img src="images/fatogomao.png" alt="image of fatogoma" class="fatogoma">
+                <p>OUATTARA Fatogoma Abdoul Aziz</p>
+                
+            </div>
+            <div class="footerDiv">
+                <h3 class="h3align">Need help to scrape data or generate leads ?</h3>
+                <a href="https://www.upwork.com/freelancers/~014601a8c59c88a05a" target="_blank">
+                    <img src="images/upwork.png" alt="upwork">
+                </a> 
+    
+                <a href="https://fr.fiverr.com/fatogomaabdoula" target="_blank">
+                    <img src="images/fiverr.png" alt="fiverr">
+                </a>
+                
+            </div>
+            <div class="footerDiv clear">
+                <h3>Contact</h3>
+                <p>Signal Bugs : fatogomao66@gmail.com</p>
+                <p>Suggestions? : fatogomao66@gmail.com</p>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
