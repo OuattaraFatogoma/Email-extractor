@@ -45,7 +45,7 @@ app.post("/scrape", async (req, res)=>{
             await page.goto("https://www.google.com/");
             await page.waitForSelector(".gLFyf")
             let showMore = ".RVQdVd";
-            let regexp = /[A-Za-z0-9.]+@[A-Za-z0-9]+\.[A-Za-z]+/g;
+            let regexp = /[A-Za-z0-9.]+@[A-Za-z0-9]+\.com/g;
             await page.type(".gLFyf", message , {delay: 10})
             await page.keyboard.press("Enter", {delay : 10})
             await page.waitForSelector("#result-stats")
