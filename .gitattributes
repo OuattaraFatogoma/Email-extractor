@@ -1,1 +1,2 @@
 .cache/puppeteer/chrome/win64-117.0.5938.92/chrome-win64/chrome.dll filter=lfs diff=lfs merge=lfs -text
+.cache/puppeteer/chrome/win64-114.0.5735.90/chrome-win64/chrome.dll filter=lfs diff=lfs merge=lfs -text
