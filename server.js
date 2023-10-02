@@ -36,6 +36,7 @@ app.post("/scrape", async (req, res)=>{
     try {
             // Launch the browser and open a new blank page
             const browser = await puppeteer.launch({
+              headless: false,
               defaultViewport: false,
               userDataDir: "./tmp"
             });
@@ -72,6 +73,8 @@ app.post("/scrape", async (req, res)=>{
                   emails.push(...matches);
               }
             }
+            let uniqueEmail = new Set(emails);
+            emails = Array.from(uniqueEmail);
             console.log(emails)
             let data = JSON.stringify(emails);
             res.status(200).json(emails);

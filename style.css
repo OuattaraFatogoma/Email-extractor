@@ -68,6 +68,7 @@ textarea{
     resize: none;
     border: none;  
     cursor: default;
+    font-weight: lighter;
 }
 
 .verifyEmailBut{
