@@ -1,0 +1,5 @@
+package-lock.json
+node_modules/*
+tmp/*
+.cache/puppeteer/chrome/win64-114.0.5735.90/chrome-win64/chrome.dll
+.cache/puppeteer/chrome/win64-117.0.5938.92/chrome-win64/chrome.dll
